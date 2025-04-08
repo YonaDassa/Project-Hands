@@ -34,8 +34,8 @@ Key methodological choices:
 
 ```bash
 # Clone the repository
-git clone https://github.com/YonaDassa/hand-movement-analysis.git
-cd hand-movement-analysis
+git clone https://github.com/YonaDassa/Project-Hands.git
+cd Project-Hands
 
 # Create and activate virtual environment
 python3 -m venv venv
