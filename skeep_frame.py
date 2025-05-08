@@ -48,8 +48,8 @@ while cap.isOpened():
         print("שגיאה בטעינת המסגרות מהוידאו או סיום הסרטון")
         break
 
-    # עיבוד רק כל פריים עשירי
-    if frame_index % 10 == 0:
+    # עיבוד רק כל פריים 3
+    if frame_index % 3 == 0:
         print(f"עיבוד מסגרת מספר: {frame_index}")
 
         # המרת התמונה ל-RGB
