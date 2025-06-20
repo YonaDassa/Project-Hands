@@ -222,6 +222,7 @@ class DataVisualizer:
             ax.set_ylabel('Y (pixels)', fontsize=12)
             ax.set_xlim(0, heatmap_width)
             ax.set_ylim(heatmap_height + 50, -50)
+            ax.invert_yaxis()
             ax.grid(True, linestyle='--', alpha=0.3)
             ax.legend(loc='upper left', fontsize=10)
 
