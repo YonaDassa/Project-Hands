@@ -1,7 +1,5 @@
 # Hand Movement Analysis Project
 
-![Heat Map Example](hand_heatmap.png)
-
 ## 📋 Overview
 
 This project provides tools for analyzing hand movements in video recordings by creating visual heat maps. Using computer vision and machine learning techniques, it tracks hand positions and generates insightful visualizations showing where hands appear most frequently in the frame.
