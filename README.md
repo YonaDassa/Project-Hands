@@ -2,15 +2,9 @@
 
 ## 📋 Overview
 
-This project provides tools for analyzing hand movements in video recordings by creating visual heat maps. Using computer vision and machine learning techniques, it tracks hand positions and generates insightful visualizations showing where hands appear most frequently in the frame.
 
 ## 🔍 Features
 
-- **Hand Detection** - Accurate tracking of hand landmarks using MediaPipe
-- **Video Processing** - Frame-by-frame analysis with landmark detection
-- **Heat Map Generation** - Visualize hand movement patterns with customizable parameters
-- **Efficient Memory Usage** - Optimized for processing large videos without excessive memory demands
-- **Customizable Parameters** - Adjust influence radius, decay rates, and more
 
 ## 🛠️ Technical Details
 
@@ -23,10 +17,6 @@ Key methodological choices:
 
 ## 📊 Applications
 
-- **Developmental Psychology**: Compare hand movement patterns across different age groups
-- **Ergonomics**: Analyze hand positioning for interface design
-- **Physical Therapy**: Track progress in motor skills rehabilitation
-- **Human-Computer Interaction**: Study gesture patterns for interactive systems
 
 ## 💻 Installation
 
@@ -48,21 +38,18 @@ pip install opencv-python mediapipe numpy matplotlib pandas
 ### Basic Usage
 
 ```bash
-# Process video and generate hand coordinate data
-python hands.py
+# Process video and generate hand coordinate data every third frame
+python skeep_frame.py
+
+# Process video and generate hand coordinate data every third frame with area
+python skeep_frame_circle.py
 
 # Generate heat map from coordinates
 python hot_maps.py
-```
 
-### For Large Videos
+# inaractive graph
+python interactive_graph.py
 
-```bash
-# Process every 10th frame (faster processing)
-python skip_frame.py
-
-# Generate memory-efficient heat map
-python hot_maps.py
 ```
 
 ## ⚙️ Configuration
@@ -80,16 +67,5 @@ The system produces:
 
 1. **CSV Data File**: Contains frame numbers and X,Y,Z coordinates for each hand landmark
 2. **Processed Video**: Shows the original video with hand landmarks overlaid
-3. **Heat Map Image**: Visual representation of hand position frequency
 
 ## 🔬 Research Applications
-
-This tool enables quantitative analysis of spatial characteristics like distribution, symmetry, and concentration of hand movements. Researchers can track changes in these patterns over time to study motor cognition and spatial perception development.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
