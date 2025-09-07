@@ -93,11 +93,6 @@ Project-Hands/
 └── output/                 # Generated heat maps and visualizations
 ```
 
-## 🤝 Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 👥 Authors
 - **יונה דסה** (Yona Dassa)
@@ -105,9 +100,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 **Supervisor:** Prof. Sharon Gilai-Dotan  
 **Institution:** School of Optometry and Vision Sciences, Bar-Ilan University
-
-## 📞 Contact
-For questions or collaboration inquiries, please reach out through the GitHub repository.
-
----
-*This project is part of ongoing research into visual-motor development patterns across different age groups.*
