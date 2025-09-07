@@ -95,7 +95,7 @@ Project-Hands/
 
 ## 👥 Authors
 - **יונה דסה** (Yona Dassa)
-- **הלל לוי** (Hillel Levi)
+- **הלל לוי** (Halel Levi)
 
 **Supervisor:** Prof. Sharon Gilai-Dotan  
 **Institution:** School of Optometry and Vision Sciences, Bar-Ilan University
