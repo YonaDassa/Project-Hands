@@ -95,9 +95,7 @@ Project-Hands/
 ├── skeep_frame.py          # Basic frame processing
 ├── skeep_frame_circle.py   # Frame processing with area calculation
 ├── hot_maps.py             # Heat map generation
-├── interactive_graph.py    # Interactive visualization
-├── data/                   # Input videos and output CSV files
-└── output/                 # Generated heat maps and visualizations
+└── interactive_graph.py    # Interactive visualization
 ```
 
 
