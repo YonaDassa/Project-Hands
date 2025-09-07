@@ -40,6 +40,14 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install opencv-python mediapipe numpy matplotlib pandas
 ```
 
+## Usage Instructions
+1. Running skeep_frame.py and skeep_frame_circle.py:
+Before running the scripts, set the path to your input video file in the code at the designated location.
+
+
+2. Running hot_maps.py and interactive_graph.py:
+Set the path to the CSV files containing the hand coordinates in the code before executing the scripts.
+
 ## 🚀 Usage
 
 ### Basic Usage
