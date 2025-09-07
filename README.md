@@ -84,7 +84,6 @@ It opens avenues for:
 ```
 Project-Hands/
 ├── README.md
-├── requirements.txt
 ├── skeep_frame.py          # Basic frame processing
 ├── skeep_frame_circle.py   # Frame processing with area calculation
 ├── hot_maps.py             # Heat map generation
