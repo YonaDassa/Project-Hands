@@ -80,8 +80,7 @@ The system produces:
 - **Heat Maps**: Visual representation of cumulative hand positions
 - **Interactive Graphs**: Exploration of spatial hand distributions
 
-**##🔒 Data Privacy
-**
+🔒 Data Privacy
 For ethical and privacy reasons, we do not include sample videos or raw participant data in this repository. All shared scripts and outputs are based on anonymized or synthetic data only.
 
 ## 🔬 Research Applications
